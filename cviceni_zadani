@@ -12,6 +12,7 @@ cv07 suma srazek predchozi rok: Suma srážek ve stejném měsíci předchozího
 cv08 suma srazek kumulativne: Suma srážek v daném roce, v měsících rovnající se či menší danému měsíci (tj. YTD)
 cv09 pocet tropickych dnu ruzyne: Počet datumů v daném měsíci a roce, kdy v lokalitě RUZYNE byla maximalni_teplota > 30
 
+BONUS: Datum maximálních srážek v RUZYNE v daném měsíci a roce. (první datum)
 =======================================================================================================================
 
 Vizuál typu průřez s hodnotami z data[lokalita] (omezit na jediný výběr)
