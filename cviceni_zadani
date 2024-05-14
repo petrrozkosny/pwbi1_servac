@@ -2,6 +2,8 @@
 cv01 minimalni datum: Minimální datum v daném měsíci a roce
 cv02 minimalni datum vse: Minimalni datum bez ohledu na rok a měsíc
 cv03 minimalni datum ruzyne: Minimální datum v daném roce, měsíci, lokalitě RUZYNE
+
+
 cv04 minimalni datum rok: Minimální datum v daném roce bez ohledu na měsíc
 cv05 minimalni datum predchozi rok: Minimální datum ve stejném měsíci předchozího roku
 
