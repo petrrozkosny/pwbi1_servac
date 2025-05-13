@@ -1,0 +1,8 @@
+max_srazky_lokalita_datum = 
+CONCATENATEX(
+ADDCOLUMNS(
+FILTER(data,
+data[srazky] = MAX(data[srazky])),
+"datum_lokalita",
+data[lokalita]&", "&data[datum]),
+[datum_lokalita],UNICHAR(10),[datum_lokalita],ASC)
