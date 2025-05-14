@@ -1,0 +1,9 @@
+klouzavy prumer = 
+
+VAR _tabulka = 
+ADDCOLUMNS(
+CALENDAR(MAX(data[datum]) -6,MAX(data[datum])),
+"prumer", CALCULATE(MAX(data[srazky]),data[datum] = EARLIER([Date])))
+
+RETURN
+AVERAGEX(_tabulka,[prumer])
